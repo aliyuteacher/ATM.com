@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="#form.css">
+<body>
+    <!-- ATM Card Details Form -->
+<form id="atm-card-form">
+    <h2>ATM Card Details</h2>
+    <label for="card-number">Card Number:</label>
+    <input type="text" id="card-number" name="card-number" placeholder="Enter your 16-digit card number" required>
+  
+    <label for="card-holder-name">Card Holder Name:</label>
+    <input type="text" id="card-holder-name" name="card-holder-name" placeholder="Enter your name as it appears on the card" required>
+  
+    <label for="expiration-date">Expiration Date:</label>
+    <input type="month" id="expiration-date" name="expiration-date" required>
+  
+    <label for="cvv">CVV:</label>
+    <input type="password" id="cvv" name="cvv" placeholder="Enter your 3-digit CVV code" required>
+  
+    <label for="pin">PIN:</label>
+    <input type="password" id="pin" name="pin" placeholder="Enter your 4-digit PIN" required>
+  
+    <button type="submit">Submit</button>
+  </form>
+    
+</body>
+</html>
